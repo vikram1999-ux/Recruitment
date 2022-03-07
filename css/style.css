@@ -1,0 +1,160 @@
+/************************************************* Header ********************************************************************/
+#Header + main {margin-top:160px;} 
+#Header .header-links{font-size:16px; letter-spacing:-.020em; color:#1e223f;} #Header .header-links .fa-lg{color:#c43a3d; font-size:14px;}
+/********** Mainbanner **************************************************************************************************/
+.MainBanner .carousel-caption {z-index:99;display:flex;justify-content:center;align-items:center;margin:auto;left:0;bottom:200px;right:0;}
+.MainBanner .carousel-caption .fa-lg{font-size:14px; letter-spacing:-.020em; color:#fff;}
+.MainBanner .carousel-caption .mrgn {margin-left: 340px;margin-right: 340px;}
+.MainBanner .carousel-caption select.form-control, select.form-control:focus{box-shadow: none !important;}
+.MainBanner .carousel-caption input.form-control, input.form-control:focus {font-size: 16px !important;height: 54px !important;box-shadow: none !important;}
+.MainBanner .carousel-caption  .form-select{font-size:16px !important; font-weight:400; background-color:#fff; border-color:#fff !important; border-radius:6px;height:54px; color:#282828; font-family: 'Yantramanav', sans-serif; letter-spacing:-.020em;}
+.MainBanner .carousel-caption .form-select{box-shadow: none !important;-moz-box-shadow: none; -webkit-box-shadow: none !important;}
+/********** Consultants **************************************************************************************************/
+#Consultants .mrgn{margin-left: 120px;margin-right: 150px;} #Consultants h1::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -80px;
+  right: -60px;
+  z-index: -1;
+  bottom: -70px;
+  border-right: 180px solid #c43a3d;
+} #Consultants {margin-top: 180px;margin-bottom: 180px;}
+/********** Application **************************************************************************************************/
+#Application .text-position{position: absolute;bottom: 50px; text-align:end; right: 230px;width: 40%;}
+/************************************************* Industries ********************************************************************/
+#Industries .Slider {position: relative; padding:0px 60px;}  
+#Industries .Slider .cycle-prev, #Industries .Slider .cycle-next {position:absolute; top:52%; right:0px; z-index:99; cursor:pointer;}
+#Industries .Slider .cycle-prev {left:0px; right:auto;} 
+#Industries .Slider .slideshow {overflow:hidden;}
+#Industries .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+/************************************************* Employers ********************************************************************/
+#Employers .Rectangle{border: 3px solid #341b5a;height: 260px;border-radius: 40px; border-left:0px; position:relative;} #Employers h2{color:#341b5a;} #Employers .position-text1 p{color:#2a2a2a; font-size:14px;} #Employers .position-text1{position: absolute;left: 0;width: 20%;background: #f8f8f8;margin-top: -40px; padding-left:35px; padding-right:35px;} #Employers .mb-6{margin-bottom:100px;} #Employers .mt-6{margin-top:150px;}
+
+#Employers .position-text2{position: absolute;width: 20%;padding-left: 40px;padding-right: 40px; background: #f8f8f8;margin-top: -40px;}
+#Employers .position-text3{position: absolute;width: 25%;padding-left: 72px;padding-right: 72px; background: #f8f8f8;margin-top: -40px;}
+
+#Employers .position-text4{position: absolute;width: 25%;padding-left: 72px;padding-right: 72px; background: #f8f8f8;margin-top: 220px;}
+#Employers .position-text5{position: absolute;width: 20%;padding-left: 75px;padding-right: 75px; background: #f8f8f8;margin-top: 220px;}
+
+#Employers .position-text6{position: absolute;width: 20%;padding-left: 55px;padding-right: 55px; background: #f8f8f8;margin-top: 220px;}
+#Employers .position-text6 .text-primary{color:#341b5a !important;}
+#Employers .brdr-btm{content: ''; position: absolute;}
+/************************************************* Employability ********************************************************************/
+#Employability p{font-size:13px;} #Employability .text-position{position: absolute;bottom: -100px;background: #341b5a;width: 50%;padding: 100px 100px 100px 70px;margin-left: 90px; border-bottom-left-radius:20px; border-bottom-right-radius:20px;} #Employability{margin-bottom:120px;}
+/************************************************* Blog ********************************************************************/
+#Blog .Slider {position: relative; padding:0px 60px;}  
+#Blog .Slider .cycle-prev, #Blog .Slider .cycle-next {position:absolute; top:52%; right:0px; z-index:99; cursor:pointer;}
+#Blog .Slider .cycle-prev {left:0px; right:auto;} 
+#Blog .Slider .slideshow {overflow:hidden;}
+#Blog .Slider .slideshow .isItem {white-space:normal; vertical-align:top;}
+#Blog .card-title{font-size:19px;} #Blog span{font-size:13px; color:#595858;} #Blog .card-text{color:#323232; font-size:16px;} #Blog .card{border-radius:0px; border:0px; box-shadow: 0px 0px 15px rgba(0,0,0,.2); margin-top:10px; margin-bottom:10px;} #Blog .card-body{padding: 40px 30px 50px 30px;}
+#Blog a.text-success{color:#81a7a4;} #Blog a:hover.text-success{color:#323232 !important;}
+/********** Contactform **************************************************************************************************/
+/************************************************* Contact form ********************************************************************/
+#ContactForm {padding-top:140px; padding-bottom:125px;} #ContactForm p{color:#393939; font-size:16px; letter-spacing:-.020em;}
+#ContactForm .form-group {margin-bottom: 32px;}
+#ContactForm .form-control{font-size:16px; border:none; border-bottom:solid 1px #969696; border-radius:0; padding-left:0; min-height:61px;padding-bottom:51px; background:transparent;} 
+#ContactForm .form-control::placeholder{color:#393939;}
+#ContactForm textarea.form-control{height:155px;}
+#ContactForm .Border::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -65px;
+  right: -40px;
+  z-index: -1;
+  bottom: 0px;
+  border-right: 180px solid #c43a3d;
+} textarea:focus ,textarea.form-control:focus {
+
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+} #ContactForm .mrgn{margin-left: 100px;}
+/********** Footer **************************************************************************************************/
+#Footer{font-size:14px; letter-spacing:-.020em; color:#fff; line-height:1.8;} #Footer a{font-size:14px; letter-spacing:-.020em; color:#fff;}
+#Footer .CopyText{font-size:12px; color:#cacaca; margin-top:100px;}
+#Footer .list-inline-item:not(:last-child){margin-right:17px !important;} 
+#Footer .list-inline-item a{color:#fff; font-size:16px;} #Footer  a:hover{color:#c43a3d;}
+
+.Listing {padding:0px; margin:0px; list-style-type:none;}
+.Listing li{color:#fff; background:#7db916 url(../images/icon1.png) no-repeat 1.1em 1.45em; padding:14px 0 12px 45px; margin:0 0 1px; border-radius:6px;}
+.Listing li a{color:#fff;} .Listing li a:hover{color:#000;}
+
+
+/*************************************************************************************************************/
+.container-new{max-width:1920px !important; padding-right:15px; padding-left:15px;margin-right: auto;margin-left: auto;}
+.container-fluid{max-width:1840px !important;}
+.container{max-width:1360px !important;}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 1025px) {
+	.navbar .nav-item .dropdown-menu{ display:none;}
+	.navbar .nav-item:hover .nav-link{ color:#9e0b0f;}
+	.navbar .nav-item:hover .dropdown-menu{ display:block;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+/* ============ desktop view .end// ============ */
+
+@media (min-width:992px) {
+#Header {top:0px; -webkit-transition:0.5s; -moz-transition:0.5s; -ms-transition:0.5s; transition:0.5s;}
+.shrink {background:rgba(255,255,255,.95); box-shadow:0px 5px 12px rgba(0,0,0,.5); z-index:999;}
+.Logo img {max-height:72px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+.shrink .Logo img {max-height:70px;-webkit-transition: 0.5s;-moz-transition: 0.5s;-ms-transition: 0.5s;transition: 0.5s;}
+ 
+
+
+}
+.gx-6 {margin-left:-6px!important;margin-right:-6px!important;}
+.gx-6 div[class^="col"]{padding-left:6px!important;padding-right:6px!important;}
+.gx-7 {margin-left:-12px!important;margin-right:-12px!important;}
+.gx-7 div[class^="col"]{padding-left:12px!important;padding-right:12px!important;}
+
+@media (min-width:767.98px) {
+}
+@media (min-width: 1920px) {#Employers .position-text1 {padding-left: 45px !important;padding-right: 45px !important;} #Employers .position-text2 {
+padding-left: 50px !important;padding-right: 50px !important;} #Employers .position-text3 {padding-left: 85px !important;padding-right: 85px !important;} #Employers .position-text6 {padding-left: 65px !important;padding-right: 65px !important;} #Employability .text-position {width: 41% !important;padding: 100px 215px 100px 70px !important;} #Footer .mrgn{margin-left:100px !important; margin-right:175px !important;} #ContactForm .mrgn {margin-left: 130px !important;margin-right: 175px !important;}
+}
+@media (min-width: 1200px) {.Homebnr .carousel-item img {
+    height: 712px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+	} .Logo{padding-top:42px; padding-bottom:46px;}  .shrink .Logo{padding-top:15px; padding-bottom:15px;}
+.gx-6 {margin-left:-9px!important;margin-right:-9px!important;}
+.gx-6 div[class^="col"]{padding-left:9px!important;padding-right:9px!important;}
+}
+
+@media (min-width: 1600px) {#Employers .position-text1 {padding-left: 45px !important;padding-right: 45px !important;} #Employers .position-text2 {
+padding-left: 50px !important;padding-right: 50px !important;} #Employers .position-text3 {padding-left: 85px !important;padding-right: 85px !important;} #Employers .position-text6 {padding-left: 65px !important;padding-right: 65px !important;} #Employability .text-position {width: 40%;}
+#Footer .mrgn{margin-left:100px; margin-right:80px;} #ContactForm .mrgn {margin-left: 130px !important;margin-right: 175px !important;}
+
+}
+
+@media (min-width: 1459.98px) and (max-width: 1559.98px) {
+
+
+}
+
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {#Header + main {margin-top: 137px;}
+
+}
+
+@media (min-width: 991.98px) and (max-width: 1199.98px){#Header{position:static; padding-bottom: 10px;} #Header + main {margin-top: 0px;}.Logo {padding-top: 20px;padding-bottom: 20px;} .MainBanner .carousel-caption {top:0px; bottom:0px;} h3, .h3 {font-size: 30px;} .MainBanner .carousel-caption .mrgn {margin-left: 240px;margin-right: 240px;}#Consultants .mrgn {margin-left: 100px;margin-right: 0px;} h1, .h1 {font-size: 40px;} #Consultants {margin-top: 150px;margin-bottom: 150px;} #Application .fs-70 {font-size: 40px !important;} #Application .text-position {right: 100px;} h2, .h2 {font-size: 30px;} #Industries .fs-24 {font-size: 20px !important;} #Employers .position-text3 {padding-left: 45px;padding-right: 45px;} #Employers .position-text5 {padding-left: 50px;padding-right: 50px;} #Employers .position-text4 {padding-left: 55px;padding-right: 55px;} #Employability .text-position {width: 45%;padding:  50px;margin-left: 30px;} #Blog .card-body {padding: 30px 20px;} #Blog .card-title {font-size: 17px;} #ContactForm {padding-top: 90px;padding-bottom: 80px;} #ContactForm .fs-70 {font-size: 40px !important;} #ContactForm .Border::after {bottom: 100px;} #Footer .CopyText {margin-top: 50px;}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {#Header{position:static;} #Header + main {margin-top: 0px;}.Logo {padding-top: 20px;padding-bottom: 20px;} .MainBanner .carousel-caption {top:0px; bottom:0px;} h3, .h3 {font-size: 25px;} .MainBanner .carousel-caption .mrgn {margin-left: 0px;margin-right: 0px;} #Consultants .mrgn {margin-left: 100px;margin-right: 0px;} h1, .h1 {font-size: 40px;} #Consultants {margin-top: 150px;margin-bottom: 130px;} #Application .fs-70 {font-size: 35px !important;} #Application .text-position {right: 100px;} h2, .h2 {font-size: 30px;} #Industries .fs-24 {font-size: 20px !important;} #Employers .position-text1 {padding-left: 10px;padding-right: 10px;} #Employers .position-text5 {padding-left: 10px;padding-right: 10px;} #Employers .position-text4 {padding-left: 10px;padding-right: 10px;} #Employers .position-text2 {padding-left: 10px;padding-right: 10px;} #Employers .position-text3 {padding-left: 10px;padding-right: 10px;} #Employers .position-text6 {padding-left: 10px;padding-right: 10px;}  #Blog .card-body {padding: 30px 20px;} #Blog .card-title {font-size: 17px;} #ContactForm {padding-top: 90px;padding-bottom: 50px;} #ContactForm .fs-70 {font-size: 40px !important;} #Consultants h1::after{bottom:0px;} #ContactForm .Border::after {bottom: 100px;} #Footer .CopyText {margin-top: 50px;} #Industries .Slider {padding: 0px 30px;} #Employability .text-position {position: static;width: 100%;padding: 30px;margin-left: 0px;} #Employability {margin-bottom: 0px;} #ContactForm .mrgn {margin-left: 70px;} #Blog .Slider {padding: 0px 30px;}} 
+
+@media (max-width:767.98px) {#Header{position:static;} #Header + main {margin-top: 0px;}.Logo {padding-top: 10px;padding-bottom: 10px;} .MainBanner .carousel-caption {top:0px; bottom:0px;} h3, .h3 {font-size: 25px;} .MainBanner .carousel-caption .form-select {height:45px;}.MainBanner .carousel-caption .mrgn {margin-left: 0px;margin-right: 0px;} #Consultants .mrgn {margin-left: 0px;margin-right: 0px;} h1, .h1 {font-size: 30px;} #Consultants {margin-top: 100px;margin-bottom: 50px;} #Application .fs-70 {font-size: 30px !important;} #Application .text-position {right: 50px; width:80%;} h2, .h2 {font-size: 25px;} #Industries .fs-24 {font-size: 20px !important;} #Employers .position-text1 {padding-left: 10px;padding-right: 10px;} #Employers .position-text5 {padding-left: 10px;padding-right: 10px;} #Employers .position-text4 {padding-left: 10px;padding-right: 10px;} #Employers .position-text2 {padding-left: 10px;padding-right: 10px;} #Employers .position-text3 {padding-left: 10px;padding-right: 10px;} #Employers .position-text6 {padding-left: 10px;padding-right: 10px;}  #Blog .card-body {padding: 30px 20px;} #Blog .card-title {font-size: 17px;} #ContactForm {padding-top: 50px;padding-bottom: 50px;} #ContactForm .fs-70 {font-size: 30px !important;}  #ContactForm .position-relative{margin-bottom:50px;} #Consultants h1::after{bottom:-30px; right:50px;border-right: 300px solid #c43a3d; top:-40px;} #ContactForm .Border::after {bottom: -30px; right:50px; border-right: 300px solid #c43a3d; top: -30px;} #Footer .CopyText {margin-top: 50px;} #Industries .Slider {padding: 0px 30px;} #Employability .text-position {position: static;width: 100%;padding: 30px;margin-left: 0px;} #Employability {margin-bottom: 0px;} #ContactForm .mrgn {margin-left: 0px;} #Employers .mt-6 {margin-top: 100px;}#Blog .Slider {padding: 0px 30px;} #Consultants .position-relative {margin-bottom: 80px;}
+}
+
+@media (max-width:575.98px) {#Application .text-position {position: static;text-align: center;width: 100%;background: #1e223f; padding: 30px;} #Application .fs-70{font-size: 22px !important;}  #Employers .position-text1 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;} #Employers .position-text2 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;} #Employers .position-text3 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;} #Employers .position-text4 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;} #Employers .position-text5 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;} #Employers .position-text6 {padding-left: 0px;padding-right: 0px; width:100%; margin-top: 0px; position:static;}#Employers .mb-6 {margin-bottom: 30px;} #Employers .mt-6 {margin-top: 20px;} #Employers .Rectangle {border: 0px; height:100%; border-radius:0px; position:static;} #Consultants h1::after{right:0px;} #ContactForm .Border::after{right:0px;} #Employers .Bor:after {border-bottom:3px solid #341b5a; content:"";display:block; margin:22px auto 30px auto; padding-bottom:0px; width:30px; transform: rotate(90deg);} .MainBanner .carousel-caption {position:static; background:#1e223f;} .MainBanner .carousel-caption .form-group{margin-bottom:10px;} 
+.MainBanner .carousel-caption .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#fff; border-color:#fff !important;color:#c43a3d !important;}
+#Application .btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#fff; border-color:#fff !important;color:#c43a3d !important;}
+.MainBanner .carousel-caption a:hover .fa-lg{color:#c43a3d !important;}
+}

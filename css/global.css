@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Open+Sans:wght@400;700&family=Poppins&family=Yantramanav:wght@400;700&display=swap');
+
+html {scroll-behavior:smooth;}
+body {background:#fff; color:#151515; font-family: 'Open Sans', sans-serif; font-size:15px; font-weight:400; line-height:1.6;}
+
+.font-cabin {font-family: 'Cabin', sans-serif;}
+.font-open {font-family: 'Open Sans', sans-serif;}
+.font-poppins {font-family: 'Poppins', sans-serif;}
+.font-yantra {font-family: 'Yantramanav', sans-serif;}
+.font-Bai {font-family: 'Bai Jamjuree';}
+
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../fonts/BaiJamjuree-Bold.woff2') format('woff2'),
+        url('../fonts/BaiJamjuree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Bai Jamjuree';
+    src: url('../fonts/BaiJamjuree-Medium.woff2') format('woff2'),
+        url('../fonts/BaiJamjuree-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, *:focus {outline:none !important; transition:all 0.3s ease 0s;}
+
+a {text-decoration:none !important; color:#000;} a:hover{color:#9e0b0f;}
+p{margin-bottom:25px;} .nomrgn{margin:0px !important;}
+
+
+
+.breadcrumb{color:#000; margin:0px; background-color:transparent;padding:0 0 15px; font-size:12px; border-bottom:dashed 1px #ccc; text-transform:uppercase;}
+.breadcrumb>li+li:before{content:"\27A4";color:#000; margin:0 10px;}
+.breadcrumb a{color:#000;} .breadcrumb a:hover{color:#2a2a8b;}
+
+.border-5 {
+  border-width: 10px !important;
+}
+.border-primary {
+  border-color: #2a2a8b !important;
+}
+
+/******* Helpers ********************************************************************/
+.ImgFade{background-color:#000; border-radius:10px !important;}
+.ImgFade img{opacity: 0.3; filter: alpha(opacity=30); border-radius:10px !important; /* For IE8 and earlier */}
+
+hr{background-color:#fff; margin:30px 0px 30px 0px;}
+
+/***************************/
+.btn{moz-transition: all 0.3s ease-in; -webkit-transition: all 0.3s ease-in; -o-transition: all 0.3s ease-in; transition: all 0.3s ease-in;text-decoration:none !important; font-weight:700; font-size:16px; padding:12px 60px; font-family: 'Yantramanav', sans-serif; vertical-align:top; border-radius:6px; text-transform:uppercase; letter-spacing:-.020em; box-shadow:none !important;}
+
+
+.btn-primary{border-color:#1e223f !important;color:#fff !important; background-color:#1e223f;}
+.btn-primary:hover,.btn-primary.focus,.btn-primary:focus{background-color:#c43a3d; border-color:#c43a3d !important;color:#fff !important;}
+
+.btn-danger{border-color:#c43a3d !important;color:#fff !important; background-color:#c43a3d;}
+.btn-danger:hover,.btn-danger.focus,.btn-danger:focus{background-color:#1e223f; border-color:#1e223f !important;color:#fff !important;}
+.btn.btn-lg{padding: 12px 85px;}
+
+/*****************************/
+.fw-normal{font-weight:400 !important;}
+.fw-medium{font-weight:500 !important;}
+.fw-bold{font-weight:700 !important;}
+
+.fs-16{font-size:16px !important;}
+.fs-18{font-size:18px !important;}
+.fs-70{font-size:70px !important;}
+.fs-24{font-size:24px !important;}
+
+.lh-1{line-height:1 !important;}
+.lh-9{line-height:0.9 !important;}
+
+.ls-20{letter-spacing:-.020em !important;}
+.ls-50{letter-spacing:-.050em !important;}
+.ls-1{letter-spacing:.1em !important;}
+
+.bg-dark {background:#2c2c2c !important;}
+.bg-light {background:#f8f8f8 !important;}
+/*****************************/
+.text-dark {color:#242424 !important;}
+.text-secondary {color:#333434 !important;}
+.text-primary {color:#28394f !important;}
+.text-info {color:#333333 !important;}
+/*****************************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {font-family: 'Bai Jamjuree'; font-weight:700; letter-spacing:-.020em; line-height:1;}
+h1, .h1 {font-size:60px;}
+h2, .h2 {font-size:40px;}
+h3, .h3 {font-size:33px;}
+h4, .h4 {font-size:19px;}
+h5, .h5 {font-size:12px;}
+
+/*******************************************************************/
+input.form-control,input.form-control:focus {font-size: 13px; height: calc(2.5em + 1.2rem + 2px); box-shadow:none;font-family: 'Source Sans Pro', sans-serif;}
+select.form-control {font-size:13px; height:calc(1.5em + 1.2rem + 2px);}
+textarea.form-control {font-size:13px; resize:none;}
+textarea.form-control:not([rows]) {height:136px;}
+.form-control::-moz-placeholder {color:#272727; opacity: 1;}
+
+/**************************************************************/
+.MainBanner .mask{position:absolute; top:0px; right:0%; left:0%; z-index:99; background:url(../images/bnr_shadow.png) repeat-x top; min-height:100%;}
+.MainBanner .carousel-indicators {z-index:999; bottom:-60px;}
+.MainBanner .carousel-indicators li {background-color:transparent; opacity:1;border-radius:50%; width:16px; height:16px; border:solid 1px #a2b5d1;} 
+.MainBanner .carousel-indicators .active {background-color:#a2b5d1 !important;width:16px; height:16px;}
+
+/****************************************************************/
+.Borderhd {line-height: 0.5;text-align: center;}
+.Borderhd span {display: inline-block;position: relative;  }
+.Borderhd span:before,.Borderhd span:after {content: "";position: absolute; border-bottom-color:#b8b8b8 !important; border-bottom:double; border-width:4px; top:8px;width:50%;}
+.Borderhd span:before {right: 100%;margin-right:45px;}
+.Borderhd span:after {left: 100%;margin-left:45px;}
+
+
+/***********************************************************************/
+ul.orange li {color: #3c3c3c;list-style: none;position: relative;}
+ul.orange li::before {color: #f69322; content: "\2022"; font-size:1.5em; position: absolute; top: -8px; left: -20px;}
+
+/********** Back To Top Button ***************************************************************************************************/
+#scroll {position:fixed; right:10px; bottom:10px; z-index:99999; cursor:pointer; width:45px; height:45px; text-align:center; line-height:43px; background:#c43a3d; color:#fff !important;}
+#scroll:hover {opacity:.7;}
